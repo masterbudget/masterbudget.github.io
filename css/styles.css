@@ -198,7 +198,8 @@ h2, .h2 {
 	margin: 0 auto;
 	padding: 16px;
 	height: 125px;
-	width: 165px;
+	/*width: 165px;*/
+	width: 400px;
 }
 .wrapper {
 	margin: 0 auto;
