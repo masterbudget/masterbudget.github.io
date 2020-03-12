@@ -3,8 +3,8 @@ Author URI: http://webthemez.com/
 Donate to remove backlink form the template.
 */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
-@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
 * {
 	margin: 0;
 	padding: 0;
@@ -199,7 +199,7 @@ h2, .h2 {
 	padding: 16px;
 	height: 125px;
 	/*width: 165px;*/
-	width: 350px;
+	width: 400px;
 }
 .wrapper {
 	margin: 0 auto;
@@ -364,7 +364,8 @@ h2, .h2 {
 	background: #f64646;
 	/* background-image: url('../images/dots.png'); */
 	background-repeat: repeat;
-	height: 760px;
+	/*height: 760px;*/
+	height: 460px;
 }
 /* wtMenu
 ----------------------------------------------*/
@@ -931,7 +932,8 @@ footer {
 
 @media (max-width: 768px) {
 .banner-container {
-	height: 700px;
+	/*height: 700px;*/
+	height: 460px;
 }
 #home .heading h2 {
 	font-size: 44px !important;
