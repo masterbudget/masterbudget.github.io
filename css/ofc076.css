@@ -36,3 +36,9 @@
 .hv100 {
     height: 100vh;
 }
+
+.h2-moduli {
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+}
