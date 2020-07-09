@@ -53,3 +53,16 @@
         width: 320px;
     }
 }
+#aboutUs li{
+    color: #828282;
+    margin-left: 15px;
+}
+
+#map_iframe {
+    height: 450px;
+    width: 600px;
+}
+
+.height-auto {
+    height: auto;
+}
