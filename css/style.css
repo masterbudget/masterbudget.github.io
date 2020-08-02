@@ -1,0 +1,195 @@
+:root {
+  --main-separator-bg-color: #e63131;
+  --head-text-color: white;
+  --master-red: #f64646;
+  --link-hover: gold;
+}
+
+body {
+    font-family: "Roboto";
+}
+.my_head img {
+    height: 70px;
+}
+
+.my_head .addr {
+    padding-left: 60px;
+}
+
+.my_navbar {
+    background-color: var(--main-separator-bg-color);
+    color: var(--head-text-color);
+    font-size: x-large;
+    min-height: 56px;
+}
+
+.nav-link {
+    color: var(--head-text-color);
+}
+.nav-link:hover {
+    color: var(--link-hover);
+}
+.page-active {
+    /*text-decoration: underline;*/
+    /*text-decoration-thickness: 1px;*/
+    /*border-bottom: solid 1px white;*/
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+.my_navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.title {
+    background: var(--master-red);
+    color: var(--head-text-color);
+    /*height: 240px;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.title-img {
+    margin-top: -30px;
+}
+.title-p {
+    color: var(--master-red);
+    font-size: larger;
+    text-align: center;
+}
+
+.block-separator {
+    background-color: var(--main-separator-bg-color);
+    text-align: center;
+    color: var(--head-text-color);
+}
+.block-separator h1 {
+    text-align: center;
+}
+.advantages {
+    font-size: larger;
+}
+.card-row {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.my_card-img {
+    height: 175px;
+    width: 100%;
+}
+
+.card_btn_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    /*width: 100%;*/
+    margin: 5px;
+    padding: 0;
+    text-align: center;
+    background-color: var(--master-red);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(50, 50, 50, .7);
+    color: var(--head-text-color);
+}
+.card_btn_container:hover {
+    box-shadow: 0 1px 10px 7px #FFEB3B;
+    color: var(--link-hover);
+}
+.my_card_btn {
+    margin: 0;
+    text-decoration: none;
+    /*font-weight: bold;*/
+}
+.my_card_btn:hover {
+    color: var(--link-hover);
+    text-decoration: none;
+    /*font-weight: bold;*/
+}
+.block-white-separator {
+    background-color: white;
+    text-align: center;
+    color: black;
+    /*border: solid 1px gray;*/
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.bg-gray {
+    background-color: lightgrey;
+    padding-top: 10px;
+}
+.ico-card {
+
+}
+.ico-text-wraper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+}
+.ico-text-wraper span {
+    margin: 0;
+    font-family: "Roboto Condensed";
+}
+.pd-top {
+    padding-top: 10px;
+}
+.footer {
+    padding-left: 25px;
+    text-align: left;
+}
+.topHome {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 5;
+    border: solid 1px gray;
+    border-radius: 5px;
+    color: gray;
+}
+.topHome:hover {
+    color: var(--head-text-color);
+    background-color: gray;
+}
+/*  ------------ about-master ----------------*/
+.about-banner {
+    background-color: var(--main-separator-bg-color);
+    /*margin-top: 2px;*/
+    padding-top: 2px;
+    border-top: solid 2px gold;
+}
+.about-head-text {
+    color: var(--master-red);
+    color: red;
+    font-weight: bold;
+    font-size: x-large;
+}
+mark {
+    background-color: yellow;
+}
+
+/*  --------------- contacts ------------------- */
+.contacts-row {
+    background-color: var(--master-red);
+    color: var(--head-text-color);
+}
+.contacts-h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.contacts-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacts-wraper {
+    margin: 0;
+    font-size: large
+}
+.h-separator {
+    height: 20px;
+    display: block;
+}
