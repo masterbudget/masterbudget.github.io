@@ -168,7 +168,9 @@ body {
     font-size: x-large;
 }
 mark {
-    background-color: yellow;
+    /*background-color: yellow;*/
+    background-color: inherit;
+    text-decoration: underline;
 }
 
 /*  --------------- contacts ------------------- */
